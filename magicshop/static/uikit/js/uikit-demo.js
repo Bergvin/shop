@@ -44,7 +44,7 @@ jQuery.importJS = function(o, t) {
 
 // Scripts for loading
 // =========================================================================
-var path = ""; // Paths are relative to the page loading this script!
+var path = "/static/uikit/"; // Paths are relative to the page loading this script!
 var scripts = [
   "js/uikit-utils.js",
   "js/jquery-ui.min.js",

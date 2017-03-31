@@ -9,3 +9,17 @@ def index(request):
         
     }
     return HttpResponse(template.render(context, request))
+    
+def cart(request):
+    template = loader.get_template('shop/cart.html')
+    context = {
+        
+    }
+    return HttpResponse(template.render(context, request))
+    
+def checkout(request):
+    template = loader.get_template('shop/checkout.html')
+    context = {
+        
+    }
+    return HttpResponse(template.render(context, request))
